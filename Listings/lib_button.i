@@ -1,18 +1,18 @@
-# 1 "Source/button_EXINT/lib_button.c"
+# 1 "Source/Src/lib_button.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 379 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "Source/button_EXINT/lib_button.c" 2
+# 1 "Source/Src/lib_button.c" 2
 
-# 1 "./Source/button_EXINT/button.h" 1
+# 1 "./Source/Inc\\button.h" 1
 void BUTTON_init(void);
 
 void EINT1_IRQHandler(void);
 void EINT2_IRQHandler(void);
 void EINT3_IRQHandler(void);
-# 3 "Source/button_EXINT/lib_button.c" 2
+# 3 "Source/Src/lib_button.c" 2
 # 1 "C:/Users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\\LPC17xx.h" 1
 # 41 "C:/Users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\\LPC17xx.h"
 typedef enum IRQn
@@ -1789,7 +1789,7 @@ typedef struct
        uint32_t RESERVED8;
   volatile uint32_t Module_ID;
 } LPC_EMAC_TypeDef;
-# 4 "Source/button_EXINT/lib_button.c" 2
+# 4 "Source/Src/lib_button.c" 2
 
 
 
@@ -1808,9 +1808,6 @@ void BUTTON_init(void) {
   ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->EXTMODE = 0x7;
 
   __NVIC_EnableIRQ(EINT2_IRQn);
- __NVIC_SetPriority(EINT2_IRQn, 1);
   __NVIC_EnableIRQ(EINT1_IRQn);
- __NVIC_SetPriority(EINT1_IRQn, 2);
   __NVIC_EnableIRQ(EINT0_IRQn);
- __NVIC_SetPriority(EINT0_IRQn, 3);
 }

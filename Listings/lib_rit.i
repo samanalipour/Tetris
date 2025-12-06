@@ -1,11 +1,11 @@
-# 1 "Source/RIT/lib_RIT.c"
+# 1 "Source/Src/lib_RIT.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 379 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "Source/RIT/lib_RIT.c" 2
-# 10 "Source/RIT/lib_RIT.c"
+# 1 "Source/Src/lib_RIT.c" 2
+# 10 "Source/Src/lib_RIT.c"
 # 1 "C:/Users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\\LPC17xx.h" 1
 # 41 "C:/Users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\\LPC17xx.h"
 typedef enum IRQn
@@ -1782,29 +1782,29 @@ typedef struct
        uint32_t RESERVED8;
   volatile uint32_t Module_ID;
 } LPC_EMAC_TypeDef;
-# 11 "Source/RIT/lib_RIT.c" 2
-# 1 "./Source/RIT/RIT.h" 1
-# 14 "./Source/RIT/RIT.h"
+# 11 "Source/Src/lib_RIT.c" 2
+# 1 "./Source/Inc\\RIT.h" 1
+# 14 "./Source/Inc\\RIT.h"
 extern uint32_t init_RIT( uint32_t RITInterval );
 extern void enable_RIT( void );
 extern void disable_RIT( void );
 extern void reset_RIT( void );
 
 extern void RIT_IRQHandler (void);
-# 12 "Source/RIT/lib_RIT.c" 2
-# 22 "Source/RIT/lib_RIT.c"
+# 12 "Source/Src/lib_RIT.c" 2
+# 22 "Source/Src/lib_RIT.c"
 void enable_RIT( void )
 {
   ((LPC_RIT_TypeDef *) ((0x40080000UL) + 0x30000) )->RICTRL |= (1<<3);
   return;
 }
-# 37 "Source/RIT/lib_RIT.c"
+# 37 "Source/Src/lib_RIT.c"
 void disable_RIT( void )
 {
  ((LPC_RIT_TypeDef *) ((0x40080000UL) + 0x30000) )->RICTRL &= !(0x3);
   return;
 }
-# 52 "Source/RIT/lib_RIT.c"
+# 52 "Source/Src/lib_RIT.c"
 void reset_RIT( void )
 {
   ((LPC_RIT_TypeDef *) ((0x40080000UL) + 0x30000) )->RICOUNTER = 0; // Set count value to 0

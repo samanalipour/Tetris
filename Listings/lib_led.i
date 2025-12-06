@@ -1,11 +1,11 @@
-# 1 "Source/led/lib_led.c"
+# 1 "Source/Src/lib_led.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 379 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "Source/led/lib_led.c" 2
-# 11 "Source/led/lib_led.c"
+# 1 "Source/Src/lib_led.c" 2
+# 11 "Source/Src/lib_led.c"
 # 1 "C:/Users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\\LPC17xx.h" 1
 # 41 "C:/Users/saman/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include\\LPC17xx.h"
 typedef enum IRQn
@@ -1782,9 +1782,9 @@ typedef struct
        uint32_t RESERVED8;
   volatile uint32_t Module_ID;
 } LPC_EMAC_TypeDef;
-# 12 "Source/led/lib_led.c" 2
-# 1 "./Source/led/led.h" 1
-# 12 "./Source/led/led.h"
+# 12 "Source/Src/lib_led.c" 2
+# 1 "./Source/Inc\\led.h" 1
+# 12 "./Source/Inc\\led.h"
 void LED_init(void);
 void LED_deinit(void);
 
@@ -1792,7 +1792,7 @@ void LED_deinit(void);
 void LED_On (unsigned int num);
 void LED_Off (unsigned int num);
 void LED_Out(unsigned int value);
-# 13 "Source/led/lib_led.c" 2
+# 13 "Source/Src/lib_led.c" 2
 
 
 

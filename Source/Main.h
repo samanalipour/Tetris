@@ -1,0 +1,11 @@
+#include "LPC17xx.h"
+#include "timer.h"
+#include "button.h"
+#include "led.h"
+#include "joystick.h"
+#include "RIT.h"
+#include "adc.h"
+#include "GLCD.h"
+#include "TouchPanel.h"
+#include "DAC.h"
+#include <stdio.h>

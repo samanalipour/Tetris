@@ -422,13 +422,13 @@ ARM Macro Assembler    Page 7
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --depend=.\ob
-jects\startup_lpc17xx.d -o.\objects\startup_lpc17xx.o -I.\Source -I.\Source\tim
-er -I.\Source\RIT -I.\Source\led -I.\Source\CMSIS_core -I.\Source\button_EXINT 
--I.\RTE\_LandTiger_LPC1768__release_ -IC:\Users\saman\AppData\Local\Arm\Packs\A
-RM\CMSIS\5.9.0\CMSIS\Core\Include -IC:\Users\saman\AppData\Local\Arm\Packs\Keil
-\LPC1700_DFP\2.7.2\Device\Include --predefine="__UVISION_VERSION SETA 537" --pr
-edefine="_RTE_ SETA 1" --predefine="LPC175x_6x SETA 1" --predefine="_RTE_ SETA 
-1" --list=.\listings\startup_lpc17xx.lst Source\startup_LPC17xx.s
+jects\startup_lpc17xx.d -o.\objects\startup_lpc17xx.o -I.\Source -I.\Source\CMS
+IS_core -I.\Source\Inc -I.\Source\Src -I.\RTE\_LandTiger_LPC1768__release_ -IC:
+\Users\saman\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include -IC:\Us
+ers\saman\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include --prede
+fine="__UVISION_VERSION SETA 537" --predefine="_RTE_ SETA 1" --predefine="LPC17
+5x_6x SETA 1" --predefine="_RTE_ SETA 1" --list=.\listings\startup_lpc17xx.lst 
+Source\startup_LPC17xx.s
 
 
 
