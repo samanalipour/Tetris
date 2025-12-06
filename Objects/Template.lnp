@@ -15,6 +15,7 @@
 ".\objects\glcd.o"
 ".\objects\hzlib.o"
 ".\objects\touchpanel.o"
+".\objects\tetrominoes.o"
 ".\objects\dac.o"
 ".\objects\startup_lpc17xx.o"
 ".\objects\system_lpc17xx.o"

@@ -52,7 +52,7 @@ int main(){
 		LED_init();
 		//LED_On(0);
 	  //LED_Off(0);
-		//LED_Out(255);
+		LED_Out(255);
 	
 	//Joystick
 		joystick_init();
