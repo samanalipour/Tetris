@@ -1,0 +1,8 @@
+../Peripherals/Src/Peripherals.c:14:6:RCC_config	4
+../Peripherals/Src/Peripherals.c:60:6:LED_config	1
+../Peripherals/Src/Peripherals.c:74:6:SW_config	1
+../Peripherals/Src/Peripherals.c:87:6:Debugger_config	1
+../Peripherals/Src/Peripherals.c:98:6:ADC_config	5
+../Peripherals/Src/Peripherals.c:154:6:TIM3_config	4
+../Peripherals/Src/Peripherals.c:188:6:SPI_config	2
+../Peripherals/Src/Peripherals.c:237:6:TIM3_UpdatePeriod	3

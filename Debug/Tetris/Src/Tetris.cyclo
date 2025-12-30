@@ -1,0 +1,8 @@
+../Tetris/Src/Tetris.c:88:6:Draw_score	1
+../Tetris/Src/Tetris.c:146:6:Map	3
+../Tetris/Src/Tetris.c:256:6:Check_joystick	10
+../Tetris/Src/Tetris.c:306:6:Draw_current_piece	5
+../Tetris/Src/Tetris.c:332:6:Erase_prev_piece	5
+../Tetris/Src/Tetris.c:352:6:Draw_active_piece	1
+../Tetris/Src/Tetris.c:357:6:Start_pause	4
+../Tetris/Src/Tetris.c:366:6:Spawn_new_piece	6
