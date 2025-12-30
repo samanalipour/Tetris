@@ -5,8 +5,14 @@
   - [Game Rules](#game-rules)
   - [Hardware](#hardware)
   - [Software](#software)
+    - [Game Control](#game-control)
+    - [Game Logic, Scoring, and Rendering](#game-logic-scoring-and-rendering)
     - [AAPCS](#aapcs)
   - [Demo & Media](#demo--media)
+    - [Gameplay Preview](#gameplay-preview)
+    - [Hardware & Display](#hardware--display)
+
+    
 
 ---
 
@@ -94,9 +100,8 @@ The software is developed using a **bare-metal approach**:
 
 All interactions between C and assembly strictly follow the **AAPCS** standard.
 
----
 
-## AAPCS
+### AAPCS
 
 The **AAPCS (ARM Architecture Procedure Call Standard)** defines how functions communicate on ARM architectures. It specifies:
 
@@ -116,7 +121,7 @@ By following AAPCS, seamless and reliable interaction between **C and ARM assemb
 
 ## Demo & Media
 
-### 🎮 Gameplay Preview (GIF)
+### Gameplay Preview
 
 <p align="center">
   <img src="Media/Demo.gif" alt="Tetris gameplay on STM32F103 with joystick and ST7789 display" width="480"/>
@@ -126,7 +131,7 @@ By following AAPCS, seamless and reliable interaction between **C and ARM assemb
 
 ---
 
-### 📸 Hardware & Display
+### Hardware & Display
 
 <p align="center">
   <img src="Media/Breadboard.jpg" width="45%" />
