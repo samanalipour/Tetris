@@ -6,6 +6,7 @@
   - [Hardware](#hardware)
   - [Software](#software)
     - [AAPCS](#aapcs)
+  - [Demo & Media](#demo--media)
 
 ---
 
@@ -111,3 +112,27 @@ The **AAPCS (ARM Architecture Procedure Call Standard)** defines how functions c
 
 By following AAPCS, seamless and reliable interaction between **C and ARM assembly** is ensured throughout the project.
 
+---
+
+## Demo & Media
+
+### 🎮 Gameplay Preview (GIF)
+
+<p align="center">
+  <img src="Media/Demo.gif" alt="Tetris gameplay on STM32F103 with joystick and ST7789 display" width="480"/>
+</p>
+
+▶ **[Watch full gameplay video](Media/Demo.mp4)**
+
+---
+
+### 📸 Hardware & Display
+
+<p align="center">
+  <img src="Media/Breadboard.jpg" width="45%" />
+  <img src="Media/Display.jpg" width="45%" />
+</p>
+
+<p align="center">
+  <em>Left: Breadboard setup with STM32F103 and joystick &nbsp;|&nbsp; Right: Tetris running on TFT display</em>
+</p>
