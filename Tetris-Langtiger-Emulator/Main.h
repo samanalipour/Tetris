@@ -1,0 +1,14 @@
+#include "LPC17xx.h"
+#include "Timer/timer.h"
+#include "Button/button.h"
+#include "LED/led.h"
+#include "joystick/joystick.h"
+#include "RIT/RIT.h"
+#include "ADC/adc.h"
+#include "GLCD/GLCD.h"
+#include "TouchPanel/TouchPanel.h"
+#include "DAC/DAC.h"
+#include <stdio.h>
+#include "Tetris.h"
+#include <stdbool.h>
+#include "Global_variable.h"
